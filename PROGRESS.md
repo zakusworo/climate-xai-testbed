@@ -13,15 +13,15 @@ request, a later call or a journal paper. **Nothing has been submitted.**
 
 ## Resume here
 
-The repository is `git init`'d with **no commits**. The first commit should include
-`data/cache/` (1 MB NASA POWER snapshot), because the reported numbers depend on it.
-Keep `git_rev` in `results/run_meta.json` in mind: it is `null` for the current results
-because they were produced before any commit. Rerun after committing to record a revision.
+Remote: https://github.com/zakusworo/climate-xai-testbed (**private**, branch `main`).
+The initial commit includes `data/cache/` (1 MB NASA POWER snapshot), because the
+reported numbers depend on it. `git_rev` in `results/run_meta.json` is `null` because
+the results were produced before the first commit. Rerun to record a revision.
 
 Immediate next steps:
 
-1. Commit (author: Zulfikar Aji Kusworo, no Claude trailer), then rerun
-   `scripts/run_experiments.py` so `run_meta.json` records a git revision.
+1. Rerun `scripts/run_experiments.py` so `run_meta.json` records a git revision
+   (commits: author Zulfikar Aji Kusworo, no Claude trailer).
 2. Robustness: extend seeds/bootstrap refits to **all four model classes** (E6 currently
    covers HGB only) and raise `--n-explain` above 200. Report spread, not single values.
 3. Add a conditional/observational SHAP comparison (e.g. TreeExplainer
