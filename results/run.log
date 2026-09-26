@@ -1,0 +1,20 @@
+E1_causal_only        hgb    seed=0 noise=0.00 R2=0.999 rho=1.00 top1=0.96 spur=0.000
+E2_with_proxies       hgb    seed=0 noise=0.00 R2=0.998 rho=0.85 top1=0.94 spur=0.060
+E1_causal_only        rf     seed=0 noise=0.00 R2=0.994 rho=0.98 top1=0.89 spur=0.000
+E2_with_proxies       rf     seed=0 noise=0.00 R2=0.994 rho=0.74 top1=0.89 spur=0.069
+E1_causal_only        mlp    seed=0 noise=0.00 R2=0.999 rho=0.98 top1=0.95 spur=0.000
+E2_with_proxies       mlp    seed=0 noise=0.00 R2=0.999 rho=0.98 top1=0.93 spur=0.068
+E1_causal_only        ridge  seed=0 noise=0.00 R2=0.978 rho=0.88 top1=0.87 spur=0.000
+E2_with_proxies       ridge  seed=0 noise=0.00 R2=0.982 rho=0.28 top1=0.43 spur=0.410
+E3_no_rs              hgb    seed=0 noise=0.00 R2=0.902 rho=0.32 top1=0.33 spur=0.352
+E3_no_rs              mlp    seed=0 noise=0.00 R2=0.897 rho=0.05 top1=0.05 spur=0.461
+E4_holdout_kupang     hgb    seed=0 noise=0.00 R2=0.978 rho=0.82 top1=0.88 spur=0.048
+E4_holdout_2021_24    hgb    seed=0 noise=0.00 R2=0.998 rho=0.85 top1=0.93 spur=0.062
+E5_noise              hgb    seed=0 noise=0.10 R2=0.993 rho=0.78 top1=0.92 spur=0.065
+E5_noise              hgb    seed=0 noise=0.20 R2=0.985 rho=0.81 top1=0.91 spur=0.069
+E6_bootstrap          hgb    seed=0 noise=0.00 R2=0.998 rho=0.83 top1=0.93 spur=0.065
+E6_bootstrap          hgb    seed=1 noise=0.00 R2=0.998 rho=0.85 top1=0.93 spur=0.070
+E6_bootstrap          hgb    seed=2 noise=0.00 R2=0.998 rho=0.85 top1=0.95 spur=0.067
+E6_bootstrap          hgb    seed=3 noise=0.00 R2=0.998 rho=0.85 top1=0.88 spur=0.062
+E6_bootstrap          hgb    seed=4 noise=0.00 R2=0.998 rho=0.85 top1=0.89 spur=0.064
+done in 608s -> /home/gmonsoon/Desktop/Projects/climate-xai-testbed/results

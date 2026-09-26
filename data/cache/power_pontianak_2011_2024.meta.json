@@ -1,0 +1,19 @@
+{
+  "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M_MAX%2CT2M_MIN%2CT2M%2CRH2M%2CQV2M%2CWS2M%2CALLSKY_SFC_SW_DWN%2CPS%2CPRECTOTCORR%2CCLOUD_AMT&community=AG&latitude=-0.03&longitude=109.34&start=20110101&end=20241231&format=JSON",
+  "header": {
+    "title": "NASA/POWER Source Native Resolution Daily Data",
+    "api": {
+      "version": "v2.10.0",
+      "name": "POWER Daily API"
+    },
+    "sources": [
+      "SYN1DEG",
+      "MERRA2",
+      "POWER"
+    ],
+    "fill_value": -999.0,
+    "time_standard": "LST",
+    "start": "20110101",
+    "end": "20241231"
+  }
+}

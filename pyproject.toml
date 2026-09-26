@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "climate-xai-testbed"
+version = "0.1.0"
+description = "Physics-anchored audit of explainable-AI methods for climate decisions (FAO-56 ET0 ground truth, Indonesian sites)"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Zulfikar Aji Kusworo", email = "greataji13@gmail.com" }]
+dependencies = ["numpy", "pandas", "pyarrow", "scikit-learn", "shap", "scipy", "matplotlib", "httpx", "tabulate"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/climxai"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
