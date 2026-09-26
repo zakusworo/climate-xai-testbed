@@ -13,7 +13,7 @@ request, a later call or a journal paper. **Nothing has been submitted.**
 
 ## Resume here
 
-Remote: https://github.com/zakusworo/climate-xai-testbed (**private**, branch `main`).
+Remote: https://github.com/zakusworo/climate-xai-testbed (**public**, branch `main`).
 The initial commit includes `data/cache/` (1 MB NASA POWER snapshot), because the
 reported numbers depend on it. `git_rev` in `results/run_meta.json` is `null` because
 the results were produced before the first commit. Rerun to record a revision.
